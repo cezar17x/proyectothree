@@ -17,7 +17,7 @@ public class LoadLevelActionInspector : InspectorBase
 
 		GUILayout.Space(10);
 		bool displayWarning = false;
-		if(EditorBuildSettings.scenes.Length > 0)
+		if(EditorBuildSettings.scenes.Length < 0)
 		{
 			int sceneId = 0;
 			string sceneNameProperty = serializedObject.FindProperty("levelName").stringValue;

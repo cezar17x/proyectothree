@@ -5,28 +5,52 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: d28edc74f7d33814e894621fefe308c2
-  - enabled: 1
-    path: Assets/Scenes/Nivel one.unity
-    guid: a46259dbe6e82d440a080c48822743db
-  - enabled: 1
-    path: Assets/Scenes/nivel 2.unity
-    guid: 7cec49247b746274ea63a5403b1b8618
-  - enabled: 1
-    path: Assets/Scenes/nivel 3.unity
-    guid: 44a484800ac9cd3408b9b3ba34f30118
-  - enabled: 1
-    path: Assets/Scenes/perdida.unity
-    guid: 62176200519434b40ad10b496446299d
-  - enabled: 1
-    path: Assets/Scenes/perdida 2.unity
-    guid: 3c2a94b14613b204e91e138f1ff345f3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/perdida 3.unity
-    guid: 780a194e7bc365943aa90b69bc6e74d4
+    guid: 0941d6bf53422254292e0acb7dafc79a
+  - enabled: 1
+    path: Assets/Scenes/perdida.unity
+    guid: a26a2d2844108df4ba2c7c17a7b2cacc
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 73839d5bf06b67344843e67b6da15c8b
   - enabled: 1
     path: Assets/Scenes/creditos y win.unity
-    guid: d73548f3d356c104bb30d5a70e154ccb
+    guid: 9fae66d705c37dc40b881fda9d1d02b5
+  - enabled: 1
+    path: Assets/Scenes/perdida 2.unity
+    guid: ca699b9c63e47ed498148f69ff8e8cc1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Nivel one.unity
+    guid: daf6c26cda5c9d64494f392d5cbf33a7
+  - enabled: 1
+    path: Assets/Scenes/nivel 2.unity
+    guid: 8142432b59a685640a8dc73dc6e080fe
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/nivel 3.unity
+    guid: 4ff043461c3c86a49b736f63f458dfbb
   m_configObjects: {}

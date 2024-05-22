@@ -25,9 +25,18 @@ public class Move : Physics2DObject
 
 	// Update gets called every frame
 	void Update ()
-	{
-        moveHorizontal = Input.GetAxis("Horizontal");
-        moveVertical = Input.GetAxis("Vertical");
+	{	
+		// Moving with the arrow keys
+		if(typeOfControl == Enums.KeyGroups.ArrowKeys)
+		{
+			moveHorizontal = Input.GetAxis("Horizontal");
+			moveVertical = Input.GetAxis("Vertical");
+		}
+		else
+		{
+			moveHorizontal = Input.GetAxis("Horizontal2");
+			moveVertical = Input.GetAxis("Vertical2");
+		}
 
 		//zero-out the axes that are not needed, if the movement is constrained
 		switch(movementType)
@@ -60,10 +69,7 @@ public class Move : Physics2DObject
 	// FixedUpdate is called every frame when the physics are calculated
 	void FixedUpdate ()
 	{
-        // print("Move in direction " + movement);
 		// Apply the force to the Rigidbody2d
-		// rigidbody2D.AddForce(movement * speed * 10f);
-        // rigidbody2D.velocity = new Vector2(movement.x * speed * 10, rigidbody2D.velocity.y);
-        rigidbody2D.transform.position = new Vector2(rigidbody2D.transform.position.x + Time.deltaTime * movement.x * speed, rigidbody2D.transform.position.y); 
-    }
+		rigidbody2D.AddForce(movement * speed * 10f);
+	}
 }

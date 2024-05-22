@@ -374,7 +374,7 @@ SpriteRenderer:
   m_SortingLayerID: -1739444317
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 787ef010d9830a14ab264b22bd57d782, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2984fc71ec6e1814e85de64931e716d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -672,7 +672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4badee43c5ee47b2c41a84f1c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: 
 --- !u!114 &1939449352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,7 +748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d6e74fd7e1d55be44b4592d79a376bc5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6ca8b0d8c5e40e5479fcb482e441a7e3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -851,8 +850,8 @@ MonoBehaviour:
   m_text: "CREDITOS: \n\nNivel 1: Cesar Marquez\n\nNivel 2: Cesar Marquez\n\nNivel
     3: Christofer Arce"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a0bdef1263bb9a94c8e5980d501904bb, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: a0bdef1263bb9a94c8e5980d501904bb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

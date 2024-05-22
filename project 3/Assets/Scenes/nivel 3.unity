@@ -1167,7 +1167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4badee43c5ee47b2c41a84f1c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: menu
 --- !u!114 &255537281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2783,8 +2782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16964485358617a429bca867ce0bff70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatorOBJ: {fileID: 834296961}
-  AnimationID: izquierda
 --- !u!114 &834296959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,8 +2829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16964485358617a429bca867ce0bff70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animatorOBJ: {fileID: 834296961}
-  AnimationID: caminar
 --- !u!95 &834296961
 Animator:
   serializedVersion: 4
@@ -3009,7 +3004,7 @@ SpriteRenderer:
   m_SortingLayerID: -1431981985
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -178600916, guid: 2d5de28c195932c45a28cf7818ad0f49, type: 3}
+  m_Sprite: {fileID: -117081508, guid: 42b43bbe2daba034d8b876032755bb6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5268,7 +5263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78e4badee43c5ee47b2c41a84f1c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: nivel 3
 --- !u!114 &1719994775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6264,9 +6258,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -981378753
+  m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5acd8ed30dcaa0841a47459b03197c38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
